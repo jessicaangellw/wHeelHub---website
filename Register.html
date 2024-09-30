@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wHeel Hub - Register</title>
+    <link rel="stylesheet" href="Register.css">
+</head>
+<body>
+    <nav>
+        <img class="logo-img" src="/Assets/logo white.png" alt="">
+       <div class="navbar-item"><a href="homenew.html" class="navbar-link"> Home</a></div>
+       <div class="navbar-item"><a href="Promotion.html" class="navbar-link">Promotion</a></div>
+       <div class="allcars">
+           <div class="navbar-item dropdown"><a href="AllCars.html" class="navbar-link">All Cars</a>
+                <div class="dropdown-menu">
+                    <div class="dropdown-item"><a href="2023.html" class="dropdown-link">2023</a></div>
+                    <div class="dropdown-item"><a href="2024.html" class="dropdown-link">2024</a></div>
+                    <div class="dropdown-item"><a href="2025.html" class="dropdown-link">2025</a></div>
+              </div>
+              <img id="arrow" src="/Assets//ui/arrow down white.png" alt="">
+       </div>
+        </div>
+       <div class="navbar-item"><a href="AboutUs.html" class="navbar-link">About Us</a></div>
+       <div class="navbar-item"><a href="Register.html" class="navbar-link">Register</a></div>
+    </nav>
+    
+    <center>
+    
+        <div class="form">
+                 <div class="form-detail">
+                    <h1>Register Page</h1> 
+                    <div id="error">
+                    </div>
+                        <form id="regist" name="regis" class="form-regist">
+            
+                            <input class="m-1" type="text" name="name" id="name" placeholder="   Username">
+                            <small class="error" id="error-name"></small>
+            
+                            <input class="m-1" type="text" name="email" id="email" placeholder="   Email">
+                            <small class="error" id="error-email"></small>
+            
+                            <input class="m-1" type="password" name="password" id="password" placeholder="   Password">
+                            <small class="error" id="error-password"></small>
+            
+                            <input class="m-1" type="password" name="conf" id="conf" placeholder="   Confirmation Password">
+                            <small class="error" id="error-conf"></small>
+
+                            <div class="m-1" class="gend">
+                                <label for="">Gender</label> <br>
+                                <div class="genderr">
+                                    <div class="gender">
+                                        <input class="m-2" type="radio" name="gender" id="female">
+                                        <label class="m-2" for="female">Perempuan</label>
+                                        <!-- </div>
+                                    
+                                        <div class="gender"> -->
+                                        <input class="m-2" type="radio" name="gender" id="male">
+                                        <label class="m-2" for="male">Laki-laki</label>
+                                    </div>
+                                </div>
+                                <small class="error" id="error-gender"></small>
+                            </div>
+                                <br>
+                        
+                            <label for="">Date of Birth</label>
+                            <input class="m-1" type="date" name="dob" id="dob">
+                            <small class="error" id="error-dob"></small>
+                                
+                            <div>
+                                <div class="check">
+                                    <input class="m-2" type="checkbox" name="term" id="term">
+                                    <label class="m-2" for="term">Agree with terms and condition</label>    
+                                </div>
+                                    <small class="error" id="error-term"></small>
+
+                                </div>
+                            
+                                <br>
+                            <div id="submit-button">
+                                <button class="m-3" type="submit" id="submit">Submit</button>
+                            </div>
+                        </form>   
+                    </div> 
+                </div>
+        </div>
+    </center>
+
+    
+   
+    <footer>
+
+        <div class="footer-con">
+            <div class="footer-section">
+                <div class="logo-footer">
+                    <img class="logo" src="/Assets/logo white.png" alt="">
+
+                </div>
+
+                <div class="menus">
+                    <h2 class="footer-text">wHeel Hub</h2>
+                    <ul>
+                        <a class="menu-footer" href="homenew.html">Home</a>
+                        <a class="menu-footer" href="Promotion.html">Promotion</a>
+                        <a class="menu-footer" href="AllCars.html">All Cars</a>
+                        <a class="menu-footer" href="AboutUs.html">About Us</a>
+                        <a class="menu-footer" href="Register.html">Register</a>
+                    </ul>
+                </div>
+
+                <div class="contact">
+                    <h2 class="footer-text" >Contact Us</h2>
+                    <ul class="sec">
+                        <div class="contact-1">
+                            <img class="img-icon" src="/Assets/telpon.png" alt="">
+                            <p class="nmr-con">1600789</p>
+                        </div>
+
+                        <div class="contact-1">
+                            <img class="img-icon" src="/Assets/logo_wa1.png" alt="">
+                            <p class="nmr-con">087823674850</p>
+                        </div>
+
+                        <div class="contact-1">
+                            <img class="img-icon" src="/Assets/logo_ig-removebg-preview.png" alt="">
+                            <p class="nmr-con">@wheel_hub</p>
+                        </div>
+
+                        <div class="contact-1">
+                            <img class="img-icon" src="/Assets/logo-web-removebg-preview.png" alt="">
+                            <p class="nmr-con">wheelHub.com</p>
+                        </div>
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <p id="copyright">&copy; Copyright wHeelHub 2024</p>
+
+        </div>
+
+    </footer>
+    
+
+</body>
+<script src="Register.js"></script>
+</html>
